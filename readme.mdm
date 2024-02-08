@@ -1,0 +1,2 @@
+Overview
+This repository contains the design and implementation of a dual-port memory module. Dual-port memory allows simultaneous read and write operations from two different sources, making it useful in scenarios where multiple processes or devices need access to the memory simultaneously without causing conflicts.
