@@ -7,7 +7,7 @@ module tb_design_2_wrapper;
   reg [3:0] wea, web;
   wire [31:0] douta, doutb;
 
-  // Instantiate the design_2_wrapper module
+  // Instantiate the design_2_wrapper module 
   design_2_wrapper design_2_wrapper_inst (
     .addra(addra),
     .addrb(addrb),
@@ -47,7 +47,7 @@ module tb_design_2_wrapper;
     wea = 4'b0000;
     web = 4'b0000;
 
-    // Apply reset
+    // Applying reset
     #100;
     rsta = 1;
     rstb = 1;
