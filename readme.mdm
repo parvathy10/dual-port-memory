@@ -1,6 +1,6 @@
 Overview
 
-This repository contains the design and implementation of a dual-port memory module.
+This repository contains the design and implementation of a dual-port memory module:
 
 
 Dual-port memory is a type of memory architecture that allows for two separate data accesses (reads or writes) to occur simultaneously. Unlike traditional memory, which typically supports only one operation at a time, dual-port memory features two independent sets of data and address lines, known as ports. Each port can operate independently, enabling concurrent access from different parts of a system without conflicts.
