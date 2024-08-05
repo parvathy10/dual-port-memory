@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module tb_design_2_wrapper;
+module tb_design_wrapper;
   reg clka, clkb;
   reg [31:0] addra, addrb, dina, dinb;
   reg ena, enb, rsta, rstb;
